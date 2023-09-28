@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: lightgrey;
+    width: max-content;
+    margin: auto;
+    max-width: 400px;
+}
+
+.display {
+    background: rgb(184, 166, 166);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    height: 80px;
+    font-size: 30px;
+}
+
+.clear {
+    background: #f85;
+}
+
+.equal {
+    background: #5f6600;
+}
+
+.operator {
+    background-color: yellow;
+}
