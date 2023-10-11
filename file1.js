@@ -14,5 +14,5 @@ equal.addEventListener('click', () => {
     display.textContent = eval(display.textContent);
 })
 clear.addEventListener('click', () => {
-    display.textContent = '';
+    display.textContent = 'bonjour';
 })
