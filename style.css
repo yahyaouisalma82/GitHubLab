@@ -5,7 +5,7 @@
 }
 
 .container {
-    background: lightgrey;
+    background: red;
     width: max-content;
     margin: auto;
     max-width: 400px;
@@ -40,7 +40,7 @@ button {
 }
 
 .equal {
-    background: #5f6600;
+    background: #999;
 }
 
 .operator {
