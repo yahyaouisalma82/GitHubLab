@@ -5,10 +5,10 @@
 }
 
 .container {
-    background: red;
+    background: green;
     width: max-content;
     margin: auto;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .display {
